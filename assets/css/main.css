@@ -1,0 +1,249 @@
+input:focus,
+button:focus,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #000000;
+}
+
+a{
+	color: #515656;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+
+	/*font-family: 'Montserrat';*/
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #515656;
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/*<-------------------NAV------------------->*/
+li:hover{
+	text-decoration: none !important;
+}
+
+#nav-logar{
+	background-color: #00ffac;
+}
+
+.myNav{
+
+	font-size: 20px;
+	padding: 0px 0px 0px 0px;
+	background-color: white;
+	/*border-color: #c1c1c1a1;*/
+	
+
+}
+
+.myNav a{
+	color: black !important;
+}
+
+.myNav ul li a:hover{
+	/*color: white !important;*/
+	background-color: transparent !important;
+	list-style: none !important;
+
+}
+
+.nav .open>a{
+	background-color: transparent !important;
+}
+
+.dropdown-menu{
+	background-color: #363f4e !important;
+}
+
+.navbar-brand{
+	font-size: 30px;
+}
+
+.fa-bars::before{
+	color: white;
+	font-size: 30px;
+
+}
+
+.afix{
+	top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+}
+/*<-------------------NAV------------------->*/
+
+
+/*<-------------------HEADER------------------->*/
+.fix-position-top{
+	margin-top: 30px;
+}
+
+.box-header{
+	padding-top: 115px;
+}
+
+.myContainer{
+	padding-left: 0px !important;
+	padding-right: 0px !important; 
+}
+
+.myContainer-2{
+	padding: 0px 40px 0px 40px; 
+}
+
+
+.fix-color{
+	color: white;
+}
+
+#id-2 p{
+	color: black;
+}
+
+.myList{
+	
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	/*border-top: 0px !important;*/
+	border-color: #c1c1c1a1;
+	font-size: 13px;
+	padding: 20px !important;
+	font-weight: 400;
+
+}
+
+.myList-header{
+	
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-right: 0px;
+	border-top: 0px !important;
+	border-bottom: 0px !important;
+	border-color: #c1c1c1a1;
+	font-size: 15px;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle !important;
+	padding: 20px !important;
+
+}
+
+.myTable{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	margin: 0px;
+}
+
+.box-header > p{
+	padding: 15px;
+	margin: 30px; 
+}
+/*<-------------------HEADER------------------->*/
+
+/*<-------------------BOX------------------->*/
+.box {
+    padding: 50px 30px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 0 0 #ffffff;
+    box-shadow: 0 0 0 0 #ffffff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 5px;
+    -webkit-transform: translateY(0);
+    transform: translateY(0)
+}
+
+.box:hover {
+    
+    background-color: #fff;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+.box h4  p {
+    /*text-transform: uppercase;*/
+    color: #515656;
+}
+
+.box .box-icon {
+    height: 160px;
+    margin-bottom: 20px;
+}
+/*
+.box .box-icon img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.box:hover .box-icon img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+*/
+/*<-------------------BOX------------------->*/
+
+
+
+/*<-------------------BTN------------------->*/
+
+.myBtn{
+	-webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+	border-color: #4ebbc3 !important;
+	font-size: 20px !important;
+	background-color: #4696a2d9;
+	border-width: 2px;
+	padding: 20px;
+	color: #fff;
+}
+
+.myBtn:hover, .myBtn:active {
+	background-color: #326e77d9;
+	border-color: #97e7ec;
+	transition-duration: 0.3s;
+	color: #fff;
+}
+
+#btn-header-list{
+	text-align: center;
+}
+
+/*<-------------------BTN------------------->*/
