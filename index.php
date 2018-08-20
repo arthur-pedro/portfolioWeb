@@ -56,17 +56,15 @@
 			<!-- </div> -->   
 		</div>
 		<div class="container-fluid myContainer">
-			<div class="row">
 				<table class="table myTable">
 					<tr>
 						<th class="myList text-center"><a href="#"><span class="fa fa-filter"></span> FILTRAR</a></th>
-						<th class="myList text-center"><a href="#"><span class="fa fa-star"></span>ECOMERCE</a></th>
-						<th class="myList text-center"><a href="#"><span class="caret"></span>CATEGORIA</a></th>
-						<th class="myList text-center"><a href="#">PORTFOLIO</a></th>
-						<th class="myList text-center"><a href="#">TECNOLOGIA</a></th>
+						<th class="myList text-center"><a href="#"><span class="fa fa-star"></span> ECOMERCE</a></th>
+						<th class="myList text-center"><a href="#"><span class="fa fa-caret-down"></span> CATEGORIA</a></th>
+						<th class="myList text-center"><a href="#"><span class="fa fa-sitemap"></span> SISTEMAS</a></th>
+						<th class="myList text-center"><a href="#"><span class="fa fa-comments"></span> FALE CONOSCO</a></th>
 					</tr>
-				</table>
-			</div>	
+				</table>	
 		</div>
 	</header>
 	
@@ -76,7 +74,8 @@
 				<div class="col-md-8">
 					<br>
 					<p class="">BEST WEBSITES EXAMPLES OF PORTFOLIO DESIGNS <a href="#">read more</a></p>
-				</div><div class="col-md-4">
+				</div>
+				<div class="col-md-4">
 					<br>
 					<p class="text-center">6 results for 'Portfolio websites'</p>
 				</div>
@@ -156,7 +155,41 @@
 		</div> -->
 	</section>
 
-
-
+	<footer>
+		<div class="container-fluid">
+			<div style="background-color: #171717;">
+				<div class="row" style="padding-top: 50px;">
+					<div class="col-md-2">
+						<ul>
+							<li>Teste</li>
+							<li>Teste</li>
+							<li>Teste</li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<ul>
+							<li>Teste</li>
+							<li>Teste</li>
+							<li>Teste</li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<ul>
+							<li>Teste</li>
+							<li>Teste</li>
+							<li>Teste</li>
+						</ul>
+					</div>
+					<div class="col-md-6"></div>
+				</div>
+				<hr>
+				<ul class="list-inline">
+					<li>Brasil</li>
+					<li>Politica de privacidade</li>
+					<li>Termos de uso</li>
+				</ul>	
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
